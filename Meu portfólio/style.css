@@ -1,0 +1,85 @@
+body{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f6f6f6;
+    background-color:#000000;
+    margin: 30px 30px 30px 30px;
+}
+
+.nav__menu-name{
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 2rem;
+  outline: dotted;
+  outline-color: var(--text-light);
+  outline-offset: .4rem;
+  float: inline-start;
+}
+
+.nav__section{
+  margin: 10px 0 50px 500px;
+  float: none;
+  border: solid 3px;
+  padding: 10px;
+  max-width: fit-content;
+}
+
+.header-nav li{
+  display:inline-block;
+  line-height: 1.5;
+  margin: 8px 20px;
+  position: relative;
+  border: transparent 1px;
+}
+
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border:2px transparent;
+  margin: 0px 100px 0px 100px;
+  position: relative;
+}
+
+section{
+    width:60%;
+    margin: 0 auto;
+}
+
+section p{
+  margin: 30px 10px 30px 10px;
+  font-size: 20px;
+}
+
+h2{
+    color:#c666f27e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:1px solid whitesmoke;
+    padding: 5px;
+    border-radius:15px;
+}
+
+img{
+    width:35%;
+    float:right;
+    margin-left:10px;
+}
+
+strong{
+    color:#c566f2;
+}
+
+button{
+  background-color:indigo;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+button a{
+        text-decoration:none;
+        color:whitesmoke;
+        font-weight:700;
+        margin: 45px;
+        padding: 5px;
+}
