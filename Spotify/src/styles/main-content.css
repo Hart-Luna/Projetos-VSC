@@ -97,24 +97,28 @@
     cursor: pointer;
 }
 
-.main__center{
-    max-width: 80vw;
-    height: 100vh;
-    padding: 16px;
+/* PLAYLIST */
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
     margin: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #121212;
-}
-
-.main__center .main__title h1{
-    margin: 25px;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.main__center .main__title h2{
-    margin: 50px 25px 25px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-}
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: var(--text-base-light);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+  }
