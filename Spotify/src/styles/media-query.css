@@ -43,7 +43,7 @@
     }
   
     .offer__list-item {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   
     .offer__scroll-container {
